@@ -18,4 +18,9 @@ public class IndexTest {
     public void testCreate() throws Exception {
         System.out.println(index.create("tian1"));
     }
+
+    @Test
+    public void testExist() throws Exception {
+        System.out.println(index.exist("tian1"));
+    }
 } 
